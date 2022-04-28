@@ -125,7 +125,7 @@ export default function Reports() {
                   },
                 ]}
                 text={({ datum }) =>
-                  `${numberWithCommas(datum.x)}\n ₹${numberWithCommas(datum.y)}`
+                  `${datum.x}\n ₹${numberWithCommas(datum.y)}`
                 }
               />
             }
