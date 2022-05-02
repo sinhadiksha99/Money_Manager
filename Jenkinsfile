@@ -42,7 +42,7 @@ pipeline {
     stage("Invoke ansible playbook") {
       steps{
       ansiblePlaybook(
-      	credentialsId: "contnainer_access_key",
+      	credentialsId: "container-key",
         inventory: "inventory",
         installation: "ansible",
         limit: "",
