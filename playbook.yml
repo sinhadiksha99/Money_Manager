@@ -24,7 +24,6 @@
         update_cache: true
 
     - name: Pull docker image
-      tasks:
         community.docker.docker_image:
         name: anuj2014/node-docker-expense
         source: pull
