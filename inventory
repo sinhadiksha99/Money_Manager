@@ -1,0 +1,7 @@
+Docker ansible_host:3.90.45.100
+
+[servers_group]
+Docker
+
+[servers_group:vars]
+ansible_ssh_common_args='-o StrictyHostKeyChecking=no'
