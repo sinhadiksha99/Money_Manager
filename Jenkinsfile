@@ -46,7 +46,7 @@ pipeline {
         inventory: "inventory",
         installation: "ansible",
         limit: "",
-        playbook: "playbook.yaml",
+        playbook: "playbook.yml",
         extras: ""
       )
     }
