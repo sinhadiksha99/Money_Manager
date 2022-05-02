@@ -22,6 +22,10 @@
         name: docker-ce
         state: latest
         update_cache: true
+        
+    - name: Install Docker Module for Python
+      pip:
+        name: docker
 
     - name: Pull docker image
       shell: sudo docker pull anuj2014/node-docker-expense
