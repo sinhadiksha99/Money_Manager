@@ -1,4 +1,4 @@
-Docker ansible_host:3.90.45.100
+Docker ansible_host=3.90.45.100
 
 [servers_group]
 Docker
