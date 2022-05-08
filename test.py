@@ -6,10 +6,20 @@ assert 200 == x.status_code
 print('Response Status : '  + str(x.status_code))
 
 
-print('Testing this URL : http://52.90.150.143:9000//auth/signin' )
+print('Testing this URL : http://52.90.150.143:9000/auth/signin' )
 
 myobj = {'email': 'Anuj.rautela@iiitb.ac.in', 'password' : 'anuj2014'}
 
 x = requests.post('http://52.90.150.143:9000/auth/signin', json=myobj)
 assert 200 == x.status_code
 print('Response Status : '  + str(x.status_code))
+
+
+
+print('Testing this URL : http://52.90.150.143:9000//api/users/' )
+
+x = requests.get('http://52.90.150.143:9000//api/users/')
+assert 200 == x.status_code
+
+print('Response Status : '  + str(x.status_code))
+
