@@ -2,6 +2,7 @@ import config from "./../config/config";
 import app from "./express";
 
 const mongoose = require("mongoose");
+const logger = require("../utils/logger");
 
 const uri =
   "mongodb+srv://Anuj2014:anuj2014@cluster0.1vkqw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
@@ -16,5 +17,6 @@ app.listen(config.port, (err) => {
   if (err) {
     console.log(err);
   }
+  logger.info(`Server started and running on ${config.port}`);
   console.info("Server started on port %s.", config.port);
 });

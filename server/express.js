@@ -23,6 +23,7 @@ import theme from "./../client/theme";
 //comment out before building for production
 import devBundle from "./devBundle";
 
+const logger = require("../utils/logger");
 const CURRENT_WORKING_DIR = process.cwd();
 const app = express();
 
@@ -47,6 +48,7 @@ app.use("/", authRoutes);
 app.use("/", expenseRoutes);
 
 app.get("*", (req, res) => {
+  logger.info("Server Sent A Hello World!");
   const sheets = new ServerStyleSheets();
   const context = {};
   const markup = ReactDOMServer.renderToString(
@@ -72,6 +74,10 @@ app.get("*", (req, res) => {
 
 // Catch unauthorised errors
 app.use((err, req, res, next) => {
+  res.status(404).send("PAGE NOT FOUND");
+  logger.error(
+    `400 || ${res.statusMessage} - ${req.originalUrl} - ${req.method} - ${req.ip}`
+  );
   if (err.name === "UnauthorizedError") {
     res.status(401).json({ error: err.name + ": " + err.message });
   } else if (err) {
