@@ -12,6 +12,11 @@ pipeline {
 
       }
     }
+            stage('API Testing') {
+          steps{
+             sh "python3 test.py"
+          }
+        }
     stage('Building image') {
       steps{
         script {
@@ -46,11 +51,7 @@ pipeline {
       )
     }
     }
-        stage('API Testing') {
-          steps{
-             sh "python3 test.py"
-          }
-        }
+
 
   }
 }
