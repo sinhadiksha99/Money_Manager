@@ -12,11 +12,11 @@ pipeline {
 
       }
     }
-    // stage('Testing') {
-    //       steps{
-    //          sh "mvn test"
-    //       }
-    //     }
+    stage('API Testing') {
+          steps{
+             sh "python3 test.py"
+          }
+        }
     stage('Building image') {
       steps{
         script {
