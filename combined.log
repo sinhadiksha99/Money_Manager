@@ -1,0 +1,58 @@
+2022-05-09T06:29:51.136Z  info: Sigout Called
+2022-05-09T06:29:58.866Z  info: Signin Called
+2022-05-09T06:29:58.908Z  info: Signin Successful
+2022-05-09T06:29:58.948Z  info: Current Month Preview
+2022-05-09T06:29:58.963Z  info: ExpenseByCategory
+2022-05-09T06:30:05.807Z  info: PlotExpenses
+2022-05-09T06:30:05.814Z  info: YearlyExpense
+2022-05-09T06:30:06.974Z  info: Expense B/W Dates
+2022-05-09T06:30:08.121Z  info: Sigout Called
+2022-05-09T06:30:12.265Z  info: Signin Called
+2022-05-09T06:30:12.297Z  error: Signin Unsuccessful
+2022-05-09T06:30:17.452Z  info: Signin Called
+2022-05-09T06:30:17.481Z  info: Signin Successful
+2022-05-09T06:30:17.527Z  info: Current Month Preview
+2022-05-09T06:30:17.531Z  info: ExpenseByCategory
+2022-05-09T06:30:20.871Z  info: Expense B/W Dates
+2022-05-09T06:30:24.583Z  info: ExpenseByID
+2022-05-09T06:30:24.634Z  info: Expense Updated
+2022-05-09T06:30:27.114Z  info: Expense B/W Dates
+2022-05-09T06:30:28.790Z  info: PlotExpenses
+2022-05-09T06:30:28.800Z  info: YearlyExpense
+2022-05-09T06:30:33.312Z  info: PlotExpenses
+2022-05-09T06:30:42.442Z  info: YearlyExpense
+2022-05-09T06:30:43.277Z  info: YearlyExpense
+2022-05-09T06:31:13.484Z  info: Sigout Called
+2022-05-09T06:31:26.322Z  info: Signin Called
+2022-05-09T06:31:26.351Z  error: Signin Unsuccessful
+2022-05-09T06:31:29.268Z  info: Signin Called
+2022-05-09T06:31:29.297Z  error: Signin Unsuccessful
+2022-05-09T06:31:55.288Z  info: Signin Called
+2022-05-09T06:31:55.316Z  error: Signin Unsuccessful
+2022-05-09T06:32:00.809Z  info: Signin Called
+2022-05-09T06:32:00.833Z  error: Signin Unsuccessful
+2022-05-09T06:32:07.602Z  info: Signin Called
+2022-05-09T06:32:07.627Z  info: Signin Successful
+2022-05-09T06:32:07.670Z  info: Current Month Preview
+2022-05-09T06:32:07.687Z  info: ExpenseByCategory
+2022-05-09T06:32:08.959Z  info: PlotExpenses
+2022-05-09T06:32:08.969Z  info: YearlyExpense
+2022-05-09T06:32:18.907Z  info: Expense B/W Dates
+2022-05-09T06:32:22.524Z  info: PlotExpenses
+2022-05-09T06:32:22.527Z  info: YearlyExpense
+2022-05-09T06:32:31.368Z  info: YearlyExpense
+2022-05-09T06:32:34.271Z  info: YearlyExpense
+2022-05-09T06:32:35.414Z  info: YearlyExpense
+2022-05-09T06:32:36.243Z  info: YearlyExpense
+2022-05-09T06:32:37.572Z  info: YearlyExpense
+2022-05-09T06:32:51.232Z  info: Current Month Preview
+2022-05-09T06:32:51.237Z  info: ExpenseByCategory
+2022-05-09T06:32:52.888Z  info: Expense B/W Dates
+2022-05-09T06:32:57.259Z  info: ExpenseByID
+2022-05-09T06:32:57.311Z  info: Expense Updated
+2022-05-09T06:51:11.538Z  info: Expense B/W Dates
+2022-05-09T06:51:43.574Z  info: PlotExpenses
+2022-05-09T06:51:52.960Z  info: Current Month Preview
+2022-05-09T06:52:41.687Z  info: Sigout Called
+2022-05-09T06:52:59.227Z  info: Signin Called
+2022-05-09T06:52:59.251Z  info: Signin Successful

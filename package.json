@@ -1,7 +1,7 @@
 {
   "name": "mern-expense-tracker",
   "version": "2.0.0",
-  "description": "A MERN stack based expense tracking application",
+  "description": "A MERN stack based money managing application",
   "author": "A&A",
   "license": "MIT",
   "keywords": [

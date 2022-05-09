@@ -1,3 +1,3 @@
-# Expense_Manager
+# Money_Manager
 
 # Spe
