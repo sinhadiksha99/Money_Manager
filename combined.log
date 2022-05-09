@@ -56,3 +56,13 @@
 2022-05-09T06:52:41.687Z  info: Sigout Called
 2022-05-09T06:52:59.227Z  info: Signin Called
 2022-05-09T06:52:59.251Z  info: Signin Successful
+2022-05-09T07:16:32.135Z  info: Signin Called
+2022-05-09T07:16:32.200Z  info: Signin Successful
+2022-05-09T07:16:32.273Z  info: Current Month Preview
+2022-05-09T07:16:32.277Z  info: ExpenseByCategory
+2022-05-09T09:46:12.453Z  info: Sigout Called
+2022-05-09T09:46:15.257Z  info: Signin Called
+2022-05-09T09:46:15.316Z  info: Signin Successful
+2022-05-09T09:46:15.348Z  info: ExpenseByCategory
+2022-05-09T09:46:15.350Z  info: Current Month Preview
+2022-05-09T09:48:39.033Z  info: Expense B/W Dates
