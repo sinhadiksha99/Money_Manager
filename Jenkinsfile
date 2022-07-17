@@ -6,7 +6,7 @@ pipeline {
   }
   agent any
   stages {
-    stage('Cloning Git') {
+    stage('Git Clone') {
       steps {
         git([url: 'https://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@github.com/Anuj-2014/Expense_Manager.git', branch: 'master', credentialsId: 'anuj-github'])
 
